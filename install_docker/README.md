@@ -27,5 +27,5 @@ DOCKER Installation
 5. Enable the docker with a regular account
 -------------------------------------------
 <pre><code> sudo usermod -aG docker pi </code></pre>
-<pre><code> and relogin to server </code></pre>
+#####       and relogin to server 
 
