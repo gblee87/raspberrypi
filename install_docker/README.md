@@ -1,29 +1,31 @@
 DOCKER Installation
 ===================
 
-##1. Environment
+1. Environment
 --------------
-### H/W: Raspberry Pi 3 Model B
-### OS: Raspbian GNU/Linux 8(jessie)
-### Kernel version: 4.14.50-v7+
+#### H/W: Raspberry Pi 3 Model B
+#### OS: Raspbian GNU/Linux 8(jessie)
+#### Kernel version: 4.14.50-v7+
 
-##2. Download Docker Installation Script
+2. Download Docker Installation Script
 --------------------------------------
-> #### curl -fsSL get.docker.com -o get-docker.sh
+<pre><code> curl -fsSL get.docker.com -o get-docker.sh </code></pre>
 
-##3. Run get-docker.sh script to install the docker
+3. Run get-docker.sh script to install the docker
 -------------------------------------------------
-> #### sudo bash get-docker.sh or sudo sh get-docker.sh
+<pre><code>sudo bash get-docker.sh or sudo sh get-docker.sh</code></pre>
 
-##4. Check the operation of the docker service
+4. Check the operation of the docker service
 --------------------------------------------
->  #### ps auwx|grep docker
->  #### or
->  #### docker -v  <-- it's docker client 
->  #### docker version <-- it's docker daemon
+<pre><code> ps auwx|grep docker</code></pre>
+> #### or
+> #### docker client
+<pre><code> docker -v </code></pre>
+> #### docker daemon
+<pre><code> docker version </code></pre>
 
-##5. Enable the docker with a regular account
+5. Enable the docker with a regular account
 -------------------------------------------
->  #### sudo usermod -aG docker pi
->  #### and relogin to server
+<pre><code> sudo usermod -aG docker pi </code></pre>
+<pre><code> and relogin to server </code></pre>
 
