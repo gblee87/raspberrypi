@@ -3,9 +3,9 @@ DOCKER Installation
 
 1. Environment
 --------------
-#### H/W: Raspberry Pi 3 Model B
-#### OS: Raspbian GNU/Linux 8(jessie)
-#### Kernel version: 4.14.50-v7+
+#####    H/W: Raspberry Pi 3 Model B
+#####    OS: Raspbian GNU/Linux 8(jessie)
+#####    Kernel version: 4.14.50-v7+
 
 2. Download Docker Installation Script
 --------------------------------------
